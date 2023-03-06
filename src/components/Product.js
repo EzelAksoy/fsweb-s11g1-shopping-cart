@@ -1,5 +1,7 @@
 import React from "react";
 import { ScProduct } from "./scParts";
+import { useContext } from "react";
+import { ProductContext } from "../contexts/ProductContext";
 
 const Product = (props) => {
   return (
